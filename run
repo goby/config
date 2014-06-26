@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+
+REPO=https://raw.githubusercontent.com/goby/config/master
+
+cd $HOME
+
+wget "$REPO/.tmux.conf"
+
+echo OK!
